@@ -15,10 +15,10 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn;
-    private ImageView imgv;
-    private Random random = new Random();
-    private int lastDirection;
+    Button btn;
+    ImageView imgv;
+    Random random = new Random();
+    int lastDirection;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
